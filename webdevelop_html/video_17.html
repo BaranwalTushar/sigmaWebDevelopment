@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+       /* Element selector */
+               div{
+            /*background-color: red;*/
+        }
+        /* class selector */
+        .red{
+            background-color: red;
+        }
+        /* ID selector */
+
+        #green{
+            background-color: green;
+        }
+
+        /* Child selector */
+        div > p{
+            color: blue;
+            background-color: brown;
+        }
+         /* Descendent selector */
+         div  p{
+            color: blue;
+            background-color: brown;
+        }
+        /* Universal selector */
+
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        /* Pseudo selecter */
+        a :visited{
+            color: yellow;
+        }
+        a :link{
+            color: black;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div  class="red">
+        i am a div
+        <p> i am  a para inside the div</p>
+    </div>
+    <div id="green">
+       
+        i am a tushar
+        <span>
+            <p>I am a para inside the div</p>
+        </span>
+        
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://netflix.com">Netflix</a>
+    
+</body>
+</html>

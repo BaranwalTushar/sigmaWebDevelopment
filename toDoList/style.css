@@ -1,0 +1,69 @@
+.container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height:100%;
+    width: auto;
+    background-color: grey;
+}
+
+.create{
+    margin-top: 3px;
+    margin-bottom: 20px;
+    
+}
+.update{
+    margin-top: 5px;
+}
+
+form input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+form button{
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.add_button{
+    width: 100%;
+    padding: 10px 0px 0px 90px;
+}
+
+.add_button button{
+    padding: 8px;
+    border-radius: 8px;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.create ,.update{
+    display: none;
+}
+
+.edit_button{
+    padding: 6px 30px;
+    background-color: palevioletred;
+    border-radius: 9px;
+    color: black;
+    cursor: pointer;
+}
+.delete_button{
+    padding: 6px 30px;
+    background-color: orange;
+    border-radius: 9px;
+    color: black;
+    cursor: pointer;
+}

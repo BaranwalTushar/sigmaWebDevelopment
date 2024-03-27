@@ -1,0 +1,1 @@
+console.log("object and classe see from notes")

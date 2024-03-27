@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(image_icons/bg.jpeg);
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;   
+    background-size: max(1200px, 100vw);
+    
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+   
+    position: absolute;
+    top: 0;
+     opacity:0.65;
+
+}
+nav{
+    
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+nav  img{
+
+    color: red;
+    position: relative;
+    width: 100px;
+    z-index: 20;
+}
+nav button{
+    position: relative;
+    z-index: 20;
+}
+
+.hero{
+    font-family: 'Martel Sans', sans-serif;
+    display: flex;
+    height: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+    padding: 0 29px;
+}
+.hero> :first-child{
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+}
+.seperation{
+    height: 4px;
+    background-color: grey;
+    opacity: 0.25;
+}
+.btn{
+    margin: 3px 8px;
+    background-color: white;
+    
+    font-weight: bold;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 8px 24px ;
+    font-size: 1em;
+    border-radius: 6px;
+
+}
+ .btn-sm-red{
+    background-color: red;
+    color: white;
+    padding: 8px 24px ;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn-sm-language{
+    background-color:rgba(23, 23, 23, 0.2);
+    color: white;
+    padding: 8px 24px ;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.main input{
+    padding: 10px 45px 10px 6px;
+    background-color: rgba(23, 23, 23, 0.2) ;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid rgba(23, 23, 24, 0.9);
+
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    /* justify-content: center; */
+    align-items: center;
+}
+.secImg{
+    position: realtive;
+}
+.secImg img{
+    max-width: 30vw;
+    z-index: 10;
+    position: relative;
+}
+.secImg video{
+    position: absolute;
+    top: 570px;
+    right: 250px;
+    width: 400px;
+    height: 250px ;
+}
+.first > div{
+    display: flex;
+    flex-direction: column;
+}
+.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    
+}
+.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 3px;
+}
+
+ .first third .secImg third video{
+    position: absolute;
+    top: 570px;
+    right: 250px;
+    width: 400px;
+    height: 250px ;
+}
+
